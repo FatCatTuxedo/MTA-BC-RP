@@ -1,0 +1,63 @@
+<meta>
+	<info author="oG MTA Scripting Team" type="script" description="Serverwide Mods System"/>
+
+	<script src="c_mods_system.lua" type="client"/>
+	<script src="c_show_fps.lua" type="client"/>
+	
+	<!-- Interior 24 fix / Adams -->
+	<file src="mods/fixes/interior24.col"/>
+	
+	<!-- Disabled Icon -->
+	<file src="mods/icons.txd"/>
+	<file src="mods/disabledicon.dff"/>
+	
+	<file src="ls/bustopm.txd"/>
+	
+	<file src="ls/barrio1_lae.txd"/>
+	<file src="ls/idlewood6_detail.txd"/>
+
+	<!-- Seb Skin / Adams 
+	<file src="mods/skins/seb.txd"/>
+	<file src="mods/skins/seb.dff"/>
+	-->
+
+	<!-- HSU Mod / Adams -->
+	<file src="mods/hsu.txd"/>
+	<file src="mods/hsu.dff"/>
+	
+	<file src="mods/levi.dff"/>
+	<file src="mods/levi.txd"/>
+
+	<!--
+	<file src="mods/factory.dff"/>
+	<file src="mods/factory.col"/>
+	-->
+
+	<file src="mods/vehicles/patriot.txd"/>
+	<file src="mods/vehicles/patriot.dff"/>
+
+	<file src="mods/vehicles/trailer.dff"/>
+	<file src="mods/vehicles/trailer.txd"/>
+	
+	
+	<file src="mods/vehicles/dft30.dff"/>
+	<file src="mods/vehicles/dft30.txd"/>
+	
+	<file src="mods/weapons/sniper.txd"/>
+	<file src="mods/weapons/sniper.dff"/>
+
+	<file src="mods/items/cellphone.txd"/>
+	<file src="mods/items/cellphone.dff"/>
+
+	<file src="mods/cols/frame_4.col"/>
+	<!--
+	<file src="mods/skins/admin.txd"/>
+	<file src="mods/skins/admin.dff"/>
+	-->
+	<!--
+	<file src="mods/maps/lsmall_shops.txd"/>
+	<file src="mods/maps/lsmall_shop01.dff"/>
+	<file src="mods/maps/lsmall_window01.dff"/>
+	<file src="mods/maps/mallb_laW02.dff"/>
+	-->
+</meta>

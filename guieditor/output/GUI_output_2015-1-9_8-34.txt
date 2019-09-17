@@ -1,0 +1,44 @@
+
+GUIEditor = {
+    checkbox = {},
+    label = {},
+    edit = {},
+    button = {},
+    window = {},
+    combobox = {},
+    memo = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(611, 279, 800, 354, "Create new MOTD", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.label[1] = guiCreateLabel(17, 34, 81, 29, "Title:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.edit[1] = guiCreateEdit(98, 34, 438, 29, "sdwdwdwdwdwdwdasdsadsadsadasdasdsadsadasdasdasdasd", false, GUIEditor.window[1])
+        guiEditSetMaxLength(GUIEditor.edit[1], 50)
+        GUIEditor.label[2] = guiCreateLabel(17, 63, 81, 29, "Content:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[2], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+        GUIEditor.memo[1] = guiCreateMemo(16, 97, 520, 240, "50\nasdsadsadsadasd", false, GUIEditor.window[1])
+        GUIEditor.label[3] = guiCreateLabel(98, 69, 420, 19, "error box", false, GUIEditor.window[1])
+        guiLabelSetHorizontalAlign(GUIEditor.label[3], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[3], "center")
+        GUIEditor.label[4] = guiCreateLabel(554, 34, 65, 29, "Expire in:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[4], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[4], "center")
+        GUIEditor.combobox[1] = guiCreateComboBox(615, 37, 165, 22, "", false, GUIEditor.window[1])
+        GUIEditor.checkbox[1] = guiCreateCheckBox(689, 73, 91, 13, "Dismissable", false, false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.checkbox[1], "default-bold-small")
+        GUIEditor.label[5] = guiCreateLabel(554, 63, 65, 29, "Audience:", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[5], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[5], "center")
+        GUIEditor.checkbox[2] = guiCreateCheckBox(554, 97, 226, 17, "Rank 1", false, false, GUIEditor.window[1])
+        GUIEditor.checkbox[3] = guiCreateCheckBox(554, 114, 226, 15, "Rank 2", false, false, GUIEditor.window[1])
+        GUIEditor.button[1] = guiCreateButton(554, 315, 111, 22, "Close", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.button[1], "default-bold-small")
+        GUIEditor.button[2] = guiCreateButton(669, 315, 111, 22, "Save", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.button[2], "default-bold-small")    
+    end
+)

@@ -1,0 +1,12 @@
+<meta>
+	<info author="Exciter" type="script" description="Special christmas features"/>	
+	<script src="s_xmas.lua" type="server" />
+	<script src="c_xmas.lua" type="client" />
+
+	<script src="client.lua" type="client" />
+	<script src="client2.lua" type="client" />
+	<script src="tree.lua" type="client" />
+	
+	<file src="sound/holidays.mp3" />
+	<file src="sound/santa.mp3" />
+</meta>

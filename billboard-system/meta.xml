@@ -1,0 +1,5 @@
+<meta>
+	<info author='Ariana - Jamie'/>
+	<script src='s_billboard.lua' type='server'/>
+	<script src='c_billboard.lua' type='client'/>
+</meta>	

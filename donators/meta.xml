@@ -1,0 +1,51 @@
+<meta>
+	<info author="Maxime - OwlGaming MTA Scripting Team" type="script" description="Donation Management System"/>
+
+	<script src="g_donation_perks.lua" type="server"/>
+	<script src="g_donation_perks.lua" type="client"/>
+	
+	<script src="g_donation_data.lua" type="client"/>
+	<script src="g_donation_data.lua" type="server"/>
+	
+	<script src="s_donations.lua" type="server"/>
+	<script src="c_donations.lua" type="client"/>
+	
+	<export function="loadAllPerks" type="server"/>
+	
+	<export function="hasPlayerPerk" type="server"/>
+	<export function="hasPlayerPerk" type="client"/>
+	
+	<export function="updatePerkValue" type="server"/>
+	<export function="updatePerkValue" type="client"/>
+
+	<export function="givePlayerPerk" type="server"/>
+
+	<export function="giveAccountGC" type="server"/>
+	
+	<script src="s_donation_gui.lua" type="server"/>
+	<script src="c_donation_gui.lua" type="client"/>
+	
+	<export function="takeGC" type="server"/>
+	<export function="addPurchaseHistory" type="server"/>
+	
+	<file src="gamecoin.png"/>
+
+	<file src="typing_icons/America.png"/>
+	<file src="typing_icons/Blue.png"/>
+	<file src="typing_icons/Canada.png"/>
+	<file src="typing_icons/Caveman.png"/>
+	<file src="typing_icons/Confed.png"/>
+	<file src="typing_icons/Crown Victoria.png"/>
+	<file src="typing_icons/Default.png"/>
+	<file src="typing_icons/Fort Carson.png"/>
+	<file src="typing_icons/Gold.png"/>
+	<file src="typing_icons/Green.png"/>
+	<file src="typing_icons/Orange.png"/>
+	<file src="typing_icons/Pink.png"/>
+	<file src="typing_icons/Red.png"/>
+	<file src="typing_icons/SWAT.png"/>
+	<file src="typing_icons/Yellow.png"/>
+	
+	<export function="getFlagURL" type="client"/>
+	
+</meta>

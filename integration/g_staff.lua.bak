@@ -1,0 +1,193 @@
+--MAXIME
+function isPlayerLeadAdmin(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local adminLevel = getElementData(player, "admin_level") or 0
+	return (adminLevel >= 4)
+end
+
+function isPlayerSeniorAdmin(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local adminLevel = getElementData(player, "admin_level") or 0
+	return (adminLevel >= 3)
+end
+
+function isPlayerAdmin(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local adminLevel = getElementData(player, "admin_level") or 0
+	return (adminLevel >= 2)
+end
+
+function isPlayerTrialAdmin(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local adminLevel = getElementData(player, "admin_level") or 0
+	return (adminLevel >= 1)
+end
+
+function isPlayerSupporter(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+	
+	if not text then
+		return false
+	end
+	
+	if string.find(text, SUPPORTER) then
+		return true
+	end
+	return false
+end
+
+function isPlayerScripter(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+	if not text then
+		return false
+	end
+	
+	if string.find(text, SCRIPTER) then
+		return true
+	end
+	return false
+end
+
+--LEADER
+function isPlayerVehicleConsultant(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	if getElementData(player, "hasVctAdmin") then
+		return true
+	end
+
+	local text = getElementData(player, "forum_perms")
+	
+	if not text then
+		return false
+	end
+	
+	if string.find(text, VEHICLE_CONSULTATION_TEAM_LEADER) then
+		return true
+	end
+	
+	return false
+end
+
+--MEMBERS
+function isPlayerVCTMember(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+	
+	if not text then
+		return false
+	end
+	
+	if string.find(text, VEHICLE_CONSULTATION_TEAM_MEMBER) then
+		return true
+	end
+	
+	if string.find(text, VEHICLE_CONSULTATION_TEAM_LEADER) then
+		return true
+	end
+	
+	return false
+end
+
+--LEADER
+function isPlayerMappingTeamLeader(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+	
+	if not text then
+		return false
+	end
+	
+	if string.find(text, MAPPING_TEAM_LEADER) then
+		return true
+	end
+	
+	return false
+end
+
+--MEMBERS
+function isPlayerMappingTeamMember(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+	
+	if not text then
+		return false
+	end
+	
+	if string.find(text, MAPPING_TEAM_MEMBER) then
+		return true
+	end
+	
+	if string.find(text, MAPPING_TEAM_LEADER) then
+		return true
+	end
+	
+	return false
+end
+
+function isPlayerStaff(player)
+	if not player or not isElement(player) or not getElementType(player) == "player" then
+		return false
+	end
+	local text = getElementData(player, "forum_perms")
+
+	if not text then
+		return false
+	end
+
+	for k,v in ipairs(STAFF_MEMBER) do
+		if string.find(text, v) then
+			return true
+		end
+	end
+
+	return false
+end
+
+function getAdminGroups() -- this is used in c_adminstats to correspond levels to forum usergroups
+	return { SUPPORTER, TRIALADMIN, ADMIN, SENIORADMIN, LEADADMIN }
+end
+
+adminTitles = {
+	[1] = "Trial Admin", 
+	[2] = "Admin", 
+	[3] = "Senior Admin",
+	[4] = "Lead Admin",
+}
+
+function getAdminTitles()
+	return adminTitles
+end
+
+function getSupporterNumber()
+	return SUPPORTER
+end
+
+function getAuxiliaryStaffNumbers()
+	return table.concat(AUXILIARY_GROUPS, ",")
+end
+
+function getAdminStaffNumbers()
+	return table.concat(ADMIN_GROUPS, ",")
+end

@@ -1,0 +1,24 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    button = {},
+    label = {}
+}
+GUIEditor.window[1] = guiCreateWindow(587, 335, 749, 326, "LSPD Impound Lot | Help Desk", false)
+guiWindowSetSizable(GUIEditor.window[1], false)
+
+GUIEditor.label[1] = guiCreateLabel(27, 40, 696, 35, "To release your vehicle, you will have to pay for the tow and daily storage fees of $75 a day. You may also have to pay in extra if there's any fine issued on your vehicle.", false, GUIEditor.window[1])
+guiLabelSetHorizontalAlign(GUIEditor.label[1], "left", true)
+GUIEditor.gridlist[1] = guiCreateGridList(27, 95, 696, 162, false, GUIEditor.window[1])
+guiGridListAddColumn(GUIEditor.gridlist[1], "VIN", 0.2)
+guiGridListAddColumn(GUIEditor.gridlist[1], "Model", 0.2)
+guiGridListAddColumn(GUIEditor.gridlist[1], "Days", 0.2)
+guiGridListAddColumn(GUIEditor.gridlist[1], "Fine", 0.2)
+guiGridListAddColumn(GUIEditor.gridlist[1], "Release Date", 0.2)
+GUIEditor.label[2] = guiCreateLabel(37, 271, 188, 34, "Total: $8,565", false, GUIEditor.window[1])
+guiSetFont(GUIEditor.label[2], "default-bold-small")
+guiLabelSetColor(GUIEditor.label[2], 0, 255, 0)
+guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+GUIEditor.button[1] = guiCreateButton(621, 275, 102, 31, "Pay & Release", false, GUIEditor.window[1])
+GUIEditor.button[2] = guiCreateButton(514, 275, 102, 31, "Close", false, GUIEditor.window[1])

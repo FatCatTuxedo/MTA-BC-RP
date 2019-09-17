@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (DYN_MESH_2) (1)" breakable="false" interior="0" alpha="255" model="1412" doublesided="true" scale="1" dimension="0" posX="1544.724" posY="-1620.184" posZ="13.821" rotX="0" rotY="0" rotZ="90.5"></object>
+    <object id="object (DYN_MESH_2) (4)" breakable="false" interior="0" collisions="true" alpha="255" model="1412" doublesided="true" scale="1" dimension="0" posX="1544.97" posY="-1635.4659" posZ="13.821" rotX="0" rotY="0" rotZ="90.5"></object>
+    <object id="object (privatesign4) (1)" breakable="true" interior="0" alpha="255" model="3265" doublesided="false" scale="1" dimension="0" posX="1544.621" posY="-1620.2531" posZ="12.547" rotX="0" rotY="0" rotZ="270.75"></object>
+    <object id="object (michdr) (1)" breakable="true" interior="0" alpha="255" model="10182" doublesided="false" scale="1" dimension="0" posX="1589.338" posY="-1638.454" posZ="14.124" rotX="0" rotY="0" rotZ="89.75"></object>
+    <object id="object (michdr) (2)" breakable="true" interior="0" alpha="255" model="10182" doublesided="false" scale="1" dimension="0" posX="1584.959" posY="-1638.5" posZ="14.124" rotX="0" rotY="0" rotZ="91.247"></object>
+    <object id="object (michdr) (3)" breakable="true" interior="0" alpha="255" model="10182" doublesided="false" scale="1.3" dimension="0" posX="1588.337" posY="-1638.4969" posZ="14.409" rotX="0" rotY="0" rotZ="89.997"></object>
+    <object id="object (Gen_doorSHOP02) (1)" breakable="true" interior="0" alpha="255" model="1496" doublesided="false" scale="1" dimension="0" posX="1582.611" posY="-1637.986" posZ="12.39" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Gen_doorSHOP02) (2)" breakable="true" interior="0" alpha="255" model="1496" doublesided="false" scale="1" dimension="0" posX="1582.611" posY="-1637.986" posZ="14.865" rotX="0" rotY="0" rotZ="0"></object>
+</map>

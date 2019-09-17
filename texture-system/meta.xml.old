@@ -1,0 +1,11 @@
+<meta>
+    <info type="script" author="iG Roleplay" version="1.0" />
+	
+	<file src="files/coronastar.jpg" />
+	<file src="shaders/replacement.fx" />
+
+	<script src="frames_client.lua" type="client" protected="true" />
+	<script src="frames_gui.lua" type="client" protected="true" />
+	<script src="frames_server.lua" type="server" />
+	<script src="frames_load.lua" type="server" />
+</meta>

@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (cluckinbell1_cn2) (2)" radius="19.636852" interior="0" model="16767" lodModel="16768" posX="187.41406" posY="1188.3594" posZ="19.75" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Gen_doorSHOP3) (1)" radius="3.4566965" interior="0" model="1522" lodModel="0" posX="172.83366" posY="1177.7164" posZ="15.23718" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (drvin_projhut) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="16001" doublesided="false" scale="1" dimension="0" posX="169.4668" posY="1192.4131" posZ="13.758" rotX="0" rotY="0" rotZ="3.246"></object>
+    <object id="object (BIG_COCK_SIGN) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3334" doublesided="false" scale="1" dimension="0" posX="169.31445" posY="1190.4277" posZ="16.65" rotX="0" rotY="0" rotZ="272.499"></object>
+</map>

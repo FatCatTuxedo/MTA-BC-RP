@@ -1,0 +1,8 @@
+<meta>
+	<info author="csmit195" version="1.0.0" type="misc" name="Crosshair Target" description="The colour of the crosshair will change when you aim at a player"/>
+	
+	<script src="client.lua" type="client" protected="true" />
+	
+	<file src="crosshair.fx"/>
+	<file src="crosshair.png"/>
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+    <info author="Chuevo" type="script" description="Note Description System"/>
+	<script src="client.lua" type="client"/>
+</meta>

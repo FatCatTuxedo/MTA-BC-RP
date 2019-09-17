@@ -1,0 +1,11 @@
+<meta>
+	<info author="vG MTA Scripting Team" type="script" description="Fuel System"/>
+
+	<script src="s_fuel_system.lua" type="server" />
+	<script src="s_fuel_peds.lua" type="server" />
+	<script src="s_fuel_bank.lua" type="server" />
+	<script src="c_fuel_peds.lua" type="client" />
+
+	<script src="g_fuel.lua" type="shared" />
+	<export function="getMaxFuel" type="shared" />
+</meta>

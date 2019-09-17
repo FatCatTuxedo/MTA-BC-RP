@@ -1,0 +1,13 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    label = {}
+}
+GUIEditor.window[1] = guiCreateWindow(684, 373, 339, 137, "Confirmation", false)
+guiWindowSetSizable(GUIEditor.window[1], false)
+
+GUIEditor.label[1] = guiCreateLabel(14, 25, 315, 63, "You're about co delete MOTD ID#1 made by Maxime on.\nThis action can not be undone, are you sure you want to proceed?", false, GUIEditor.window[1])
+guiLabelSetHorizontalAlign(GUIEditor.label[1], "left", true)
+GUIEditor.button[1] = guiCreateButton(15, 97, 153, 25, "Yes", false, GUIEditor.window[1])
+GUIEditor.button[2] = guiCreateButton(168, 97, 153, 25, "No", false, GUIEditor.window[1])

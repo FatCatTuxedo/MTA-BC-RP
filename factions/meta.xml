@@ -1,0 +1,18 @@
+<meta>
+	<info author="Exciter" type="script" description="Just a few exports to prepare other scripts for a new faction system."/>
+	
+	<script src="g_factions.lua" type="shared" />
+	<script src="s_factions.lua" type="server" />
+	<script src="c_factions.lua" type="client" />
+
+	<export function="isPlayerInFaction" type="shared"/>
+	<export function="getPlayerFactionRank" type="shared"/>
+	<export function="isPlayerFactionLeader" type="shared"/>
+	<export function="getTeamFromFactionID" type="shared"/> <!--Maxime 2015.1.26-->
+	<export function="getFactionName" type="server"/>
+	<export function="getFactionType" type="server"/>
+	<export function="getFactionFromName" type="server"/>
+	<export function="getFactionIDFromName" type="server"/>
+	<export function="sendNotiToAllFactionMembers" type="server"/> <!--Maxime 2015.1.11-->
+	<export function="getAllPlayersFromFactionId" type="server"/> <!--Maxime 2015.1.11-->
+</meta>

@@ -1,0 +1,28 @@
+<meta>
+	<info author="Kaspo" version="1.0" />
+	<script src="s_createObject.lua" type="server"/>
+	
+	
+	<!-- MAPS -->
+	<map src="maps/lspdout.map" dimension="0"></map>
+	<map src="maps/angelpine.map" dimension="0" />
+	<script src="maps/Busstops_LS_LineAB.lua" type="server"/>
+	<script src="maps/library.lua" type="server"/>
+	<script src="maps/Docks.lua" type="server"/>
+	<script src="maps/trafficlights.lua" type="server" />
+	<map src="maps/mallparking.map" dimension="0" />
+	<script src="fixes/Smokes House Wall Fix.lua" type="server"/>
+	<script src="fixes/doors.lua" type="server"/>
+	<script src="fixes/Fuelpumps.lua" type="server"/>
+	<map src="maps/ogmap.map" dimension="0" />
+
+
+	
+	<!-- SCRIPTS -->
+
+	
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+	
+
+</meta>

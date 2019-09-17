@@ -1,0 +1,17 @@
+
+-- Created: 16/07/2014 12:04
+GUIEditor_Window = {}
+GUIEditor_Button = {}
+GUIEditor_Edit = {}
+
+GUIEditor_Window[1] = guiCreateWindow(513,371,531,106,"A has linked you to an URL. Do you want to copy it to clipboard?'",false)
+guiWindowSetSizable(GUIEditor_Window[1],false)
+GUIEditor_Edit[1] = guiCreateEdit(10,26,512,30,"",false,GUIEditor_Window[1])
+guiEditSetReadOnly(GUIEditor_Edit[1],true)
+GUIEditor_Button[1] = guiCreateButton(10,67,256,28,"Copy (Enter)",false,GUIEditor_Window[1])
+GUIEditor_Button[2] = guiCreateButton(266,67,256,28,"Dismiss (Backspace)",false,GUIEditor_Window[1])
+
+
+
+
+--- --- --- --- ---

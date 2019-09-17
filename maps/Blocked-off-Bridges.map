@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (des_ebrigroad07) (1)" radius="129.82385" interior="0" model="16358" lodModel="16688" posX="-168.32031" posY="367.24219" posZ="10.66406" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cxrf_redarch) (1)" radius="52.795982" interior="0" model="3381" lodModel="3382" posX="-196.78906" posY="290.17969" posZ="17.69531" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (cxrf_brigleg) (1)" radius="44.928299" interior="0" model="3330" lodModel="3333" posX="-178.71875" posY="326.53906" posZ="-3.53906" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (cxrf_redarch) (2)" breakable="true" interior="0" alpha="255" model="3381" doublesided="false" scale="1" dimension="0" posX="-176.33" posY="367.51001" posZ="1.88" rotX="22" rotY="0" rotZ="344.998"></object>
+    <removeWorldObject id="removeWorldObject (cxrf_redarch) (2)" radius="52.795982" interior="0" model="3381" lodModel="3382" posX="-176.35156" posY="367.52344" posZ="17.69531" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (cxrf_redarch) (3)" breakable="true" interior="0" alpha="255" model="3381" doublesided="false" scale="1" dimension="0" posX="-196.21001" posY="298.07001" posZ="5.63" rotX="335.995" rotY="0" rotZ="344.998"></object>
+    <object id="object (cxrf_brigleg) (1)" breakable="true" interior="0" alpha="255" model="3330" doublesided="false" scale="1" dimension="0" posX="-181.95" posY="333.73999" posZ="-6.93" rotX="0" rotY="0" rotZ="344.861"></object>
+    <object id="object (cn2_roadblock01) (1)" breakable="true" interior="0" alpha="255" model="16436" doublesided="false" scale="1" dimension="0" posX="430.92999" posY="600.77002" posZ="19.68" rotX="0" rotY="0" rotZ="36"></object>
+    <object id="object (cn2_roadblock01) (2)" breakable="true" interior="0" alpha="255" model="16436" doublesided="false" scale="1" dimension="0" posX="1750.84" posY="592.45001" posZ="24.06" rotX="357.5" rotY="0" rotZ="342.997"></object>
+    <object id="object (cn2_roadblock01) (3)" breakable="true" interior="0" alpha="255" model="16436" doublesided="false" scale="1" dimension="0" posX="1767.85" posY="582.67999" posZ="24.31" rotX="4.75" rotY="0.251" rotZ="156.972"></object>
+</map>

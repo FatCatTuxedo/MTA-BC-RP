@@ -1,0 +1,4 @@
+<meta>
+	<info author="Simonn93" description="This script adds thre moving trams in Las Venturas." version="1.0.2" type="script" />
+	<script src="s_tram.lua" type="server" />
+</meta>

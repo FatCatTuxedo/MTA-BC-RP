@@ -1,0 +1,80 @@
+
+gui = {
+    edit = {},
+    button = {},
+    window = {},
+    label = {},
+    memo = {}
+}
+dep, vehid, first, last, vehName, plate, vin, laneData = 1,1,1,1,1,1,1,{{['lane']=1},1,1}
+local yextend = 31
+
+	gui.window[1] = guiCreateWindow(642, 140, 409, 624+yextend, dep.." Impound Lot ((Vehicle ID "..vehid..")) [v1.0 by Maxime]", false)
+	guiWindowSetSizable(gui.window[1], false)
+
+	exports.global:centerWindow(gui.window[1])
+
+	gui.label[1] = guiCreateLabel(14, 29, 365, 18, "Officer Information", false, gui.window[1])
+	guiSetFont(gui.label[1], "default-bold-small")
+	gui.label[2] = guiCreateLabel(31, 58, 82, 25, "First Name:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[2], "center")
+	gui.edit[1] = guiCreateEdit(113, 57, 266, 26, first or "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[1], 200)
+	gui.label[3] = guiCreateLabel(31, 87, 82, 25, "Last Name:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[3], "center")
+	gui.edit[2] = guiCreateEdit(113, 87, 266, 26, last or "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[2], 200)
+	gui.label[4] = guiCreateLabel(31, 117, 82, 25, "Badge: ", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[4], "center")
+	gui.edit[3] = guiCreateEdit(113, 117, 266, 26, "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[3], 200)
+	gui.edit[4] = guiCreateEdit(113, 147, 266, 26, "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[4], 200)
+	gui.label[5] = guiCreateLabel(31, 147, 82, 25, "Rank:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[5], "center")
+	gui.label[6] = guiCreateLabel(14, 191, 365, 18, "Vehicle Information", false, gui.window[1])
+	guiSetFont(gui.label[6], "default-bold-small")
+	gui.edit[5] = guiCreateEdit(113, 219, 266, 26, vehName or "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[5], 200)
+	gui.label[7] = guiCreateLabel(31, 219, 82, 25, "Model:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[7], "center")
+	gui.edit[6] = guiCreateEdit(113, 249, 266, 26, plate or "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[6], 200)
+	gui.label[8] = guiCreateLabel(31, 249, 82, 25, "Plate:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[8], "center")
+	gui.label[9] = guiCreateLabel(31, 279, 82, 25, "VIN:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[9], "center")
+	gui.edit[7] = guiCreateEdit(113, 279, 266, 26, vin or "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[7], 200)
+	gui.label[10] = guiCreateLabel(14, 322, 365, 18, "Impound Information", false, gui.window[1])
+	guiSetFont(gui.label[10], "default-bold-small")
+	gui.edit[8] = guiCreateEdit(113, 350, 266, 26, "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[8], 200)
+	gui.label[11] = guiCreateLabel(31, 350, 82, 25, "Violation(s):", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[11], "center")
+	gui.edit[9] = guiCreateEdit(113, 381, 266, 26, "", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[9], 200)
+
+	gui.label[12] = guiCreateLabel(31, 381, 82, 25, "Location:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[12], "center")
+
+	gui.label[13] = guiCreateLabel(31, 412, 119, 25, "Lane Number:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[13], "center")
+	gui.edit[10] = guiCreateEdit(150, 412, 142, 25, laneData[1].lane or "FULL", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[10], 200)
+	gui.label[14] = guiCreateLabel(302, 412, 77, 25, laneData[2].."/"..laneData[3], false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[14], "center")
+
+	gui.label[13] = guiCreateLabel(31, 412+yextend, 119, 25, "Is up for release in:", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[13], "center")
+	gui.edit[11] = guiCreateEdit(150, 412+yextend, 142, 25, "1", false, gui.window[1])
+	guiEditSetMaxLength(gui.edit[11], 200)
+	gui.label[14] = guiCreateLabel(302, 412+yextend, 77, 25, "day(s)", false, gui.window[1])
+	guiLabelSetVerticalAlign(gui.label[14], "center")
+
+	gui.label[15] = guiCreateLabel(14, 452+yextend, 365, 18, "Additional Information", false, gui.window[1])
+	guiSetFont(gui.label[15], "default-bold-small")
+	gui.memo[1] = guiCreateMemo(31, 480+yextend, 348, 63, "", false, gui.window[1])
+
+	gui.button[1] = guiCreateButton(19, 564+yextend, 183, 42, "Cancel", false, gui.window[1])
+	gui.button[2] = guiCreateButton(206, 564+yextend, 183, 42, "Impound", false, gui.window[1])

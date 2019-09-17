@@ -1,0 +1,22 @@
+
+GUIEditor = {
+    checkbox = {},
+    label = {},
+    button = {},
+    window = {},
+    memo = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(491, 193, 800, 369, "Message of the day!", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.memo[1] = guiCreateMemo(9, 23, 781, 302, "", false, GUIEditor.window[1])
+        GUIEditor.label[1] = guiCreateLabel(10, 330, 329, 16, "By Maxime", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        GUIEditor.label[2] = guiCreateLabel(10, 346, 329, 16, "2015, 02/25/ 25 at 13PM", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.label[2], "default-small")
+        GUIEditor.button[1] = guiCreateButton(666, 330, 124, 29, "Close", false, GUIEditor.window[1])
+        GUIEditor.checkbox[1] = guiCreateCheckBox(522, 335, 144, 14, "Don't show this again", false, false, GUIEditor.window[1])    
+    end
+)

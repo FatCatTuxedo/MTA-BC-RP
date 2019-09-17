@@ -1,0 +1,63 @@
+<map edf:definitions="editor_main">
+	<meta>
+		<info author='convertFFS.com' version='1.0' name='convertFFS map file' description='Converted by convertFFS' type='map' />
+	</meta>
+	<object id="object(cityhall_sfs)(1)" model="10377" posX="1481.3000500" posY="-1835.0000000" posZ="29.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="90.0000000" dimension="0" interior="0" />
+	<object id="object(artgallery_sfs)(1)" model="10381" posX="1531.6999500" posY="-1786.3000500" posZ="25.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(sfe_archybald1)(2)" model="10023" posX="1483.0999500" posY="-1764.9000200" posZ="20.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(cityhall2_sfs)(1)" model="10379" posX="1432.5999800" posY="-1791.0999800" posZ="21.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="object(cj_airprt_bar)(1)" model="2773" posX="1483.0000000" posY="-1815.6999500" posZ="13.6000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(cj_airprt_bar)(2)" model="2773" posX="1479.8000500" posY="-1815.6999500" posZ="13.6000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(generator_low)(1)" model="943" posX="1518.5000000" posY="-1813.5000000" posZ="13.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(nt_aircon1_01)(1)" model="1617" posX="1519.8000500" posY="-1811.4000200" posZ="19.0000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(nt_aircon1_01)(2)" model="1617" posX="1519.6999500" posY="-1762.0999800" posZ="18.4000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(nt_aircon1_01)(3)" model="1617" posX="1470.3000500" posY="-1820.3000500" posZ="17.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(gen_roofbit3)(1)" model="1689" posX="1447.4000200" posY="-1828.0000000" posZ="33.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(noparkingsign1)(1)" model="1233" posX="1400.5999800" posY="-1861.5999800" posZ="14.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(noparkingsign1)(2)" model="1233" posX="1557.4000200" posY="-1860.1999500" posZ="14.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(noparkingsign1)(3)" model="1233" posX="1510.1999500" posY="-1746.0000000" posZ="14.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="178.0000000" dimension="0" interior="0" />
+	<object id="object(noparkingsign1)(4)" model="1233" posX="1451.4000200" posY="-1745.5999800" posZ="14.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="177.9950000" dimension="0" interior="0" />
+	<object id="object(cj_stat_3)(1)" model="2745" posX="1494.5999800" posY="-1816.3000500" posZ="13.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="198.0000000" dimension="0" interior="0" />
+	<object id="object(fenceshit3)(1)" model="983" posX="1534.6999500" posY="-1818.0000000" posZ="13.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(1)" model="1251" posX="1446.6999500" posY="-1797.1999500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(2)" model="1251" posX="1442.4000200" posY="-1797.1999500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(3)" model="1251" posX="1438.1999500" posY="-1797.1999500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(4)" model="1251" posX="1434.0000000" posY="-1797.1999500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(5)" model="1251" posX="1429.8000500" posY="-1797.1999500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(6)" model="1251" posX="1450.3000500" posY="-1801.0000000" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="object(smashbar)(7)" model="1251" posX="1450.1999500" posY="-1805.3000500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="269.9950000" dimension="0" interior="0" />
+	<object id="object(smashbar)(8)" model="1251" posX="1450.1999500" posY="-1809.5000000" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="269.9950000" dimension="0" interior="0" />
+	<object id="object(smashbar)(9)" model="1251" posX="1450.1999500" posY="-1813.5999800" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="269.9950000" dimension="0" interior="0" />
+	<object id="object(smashbar)(10)" model="1251" posX="1450.1999500" posY="-1817.8000500" posZ="12.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="269.9950000" dimension="0" interior="0" />
+	<object id="object(fire_hydrant)(1)" model="1211" posX="1469.1999500" posY="-1817.0000000" posZ="13.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(bollardlight)(1)" model="1215" posX="1487.4999800" posY="-1754.0999800" posZ="13.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(bollardlight)(2)" model="1215" posX="1478.8000200" posY="-1754.0999800" posZ="13.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(phonebooth1)(1)" model="1216" posX="1447.5999800" posY="-1757.5999800" posZ="13.2000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(dyn_dumpster_1)(1)" model="1439" posX="1521.1999500" posY="-1816.1999500" posZ="12.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(dyn_dumpster)(1)" model="1415" posX="1524.4995100" posY="-1816.3991700" posZ="12.6480800" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(cj_bin1)(1)" model="1359" posX="1518.8000500" posY="-1788.9000200" posZ="15.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(cj_bin1)(2)" model="1359" posX="1484.8000500" posY="-1815.1999500" posZ="13.8000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(kmb_cam)(1)" model="2921" posX="1489.3000500" posY="-1816.0000000" posZ="21.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(kmb_cam)(2)" model="2921" posX="1523.0999800" posY="-1823.6999500" posZ="26.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(kmb_cam)(3)" model="2921" posX="1418.9000200" posY="-1801.5000000" posZ="28.7000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(vgwstnewall6904)(4)" model="7921" posX="1551.9000200" posY="-1782.6999500" posZ="13.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(vgwstnewall6904)(6)" model="7921" posX="1551.9000200" posY="-1786.0000000" posZ="13.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(vgwstnewall6904)(7)" model="7921" posX="1551.9000200" posY="-1789.3000500" posZ="13.9000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(parkingmeter)(1)" model="1269" posX="1447.0000000" posY="-1800.3000500" posZ="13.4000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(streetlamp2)(1)" model="1231" posX="1506.9000000" posY="-1758.0999800" posZ="15.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(streetlamp2)(2)" model="1231" posX="1459.1999500" posY="-1758.1999500" posZ="15.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(dam_statues)(1)" model="11489" posX="1509.1999500" posY="-1811.4000200" posZ="12.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="218.0000000" dimension="0" interior="0" />
+	<object id="object(vegasflag1)(1)" model="7090" posX="1492.3000500" posY="-1818.9000200" posZ="27.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(barrierturn)(3)" model="968" posX="1420.0999800" posY="-1782.3000500" posZ="12.5000000" rotX="0.0000000" rotY="0.0000000" rotZ="92.0000000" dimension="0" interior="0" />
+	<object id="object(lhouse_barrier1)(1)" model="996" posX="1421.0999800" posY="-1794.0999800" posZ="13.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="0.0000000" dimension="0" interior="0" />
+	<object id="object(lhouse_barrier1)(2)" model="996" posX="1419.5999800" posY="-1794.6999500" posZ="13.3000000" rotX="0.0000000" rotY="0.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+	<object id="object(sfcopdr)(1)" model="10184" posX="1496.9000200" posY="-1857.5999800" posZ="15.1000000" rotX="0.0000000" rotY="0.0000000" rotZ="270.0000000" dimension="0" interior="0" />
+
+	<!--
+	Objects converted: 51
+	Vehicles converted: 0
+	Vehicle models found: 0
+	----------------------
+	In the time this conversion took to finish a hummingbird could have flapped it's wings 0.47 times!
+	-->
+</map>

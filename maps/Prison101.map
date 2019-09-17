@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (Carter_drugfloor) (1)" breakable="true" interior="0" alpha="255" model="14412" doublesided="false" scale="1" dimension="0" posX="1980.8101" posY="-2535.54" posZ="29.89" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (Carter-floors04) (1)" breakable="true" interior="0" alpha="255" model="14408" doublesided="false" scale="1" dimension="0" posX="2043.9" posY="-2535.8301" posZ="28.25" rotX="0" rotY="0" rotZ="0"></object>
+</map>

@@ -1,0 +1,18 @@
+<meta>
+	<info author="arc_"/>
+	
+	<!-- <script src="vehiclenodes_.lua" type="client"/> -->
+	<script src="util.lua" type="client"/>
+	<script src="client.lua" type="client"/>
+	<script src="linedrawer.lua" type="client"/>
+	
+	<file src="overlay.fx"/>
+	<file src="map.jpg"/>
+	
+	<script src="vehiclenodes.lua" type="server"/>
+	<script src="MinHeap.lua" type="server"/>
+	<script src="gps.lua" type="server"/>
+	
+	<export function="calculateRoute" type="server" />
+    <export function="calculateRoute" type="client" />
+</meta>

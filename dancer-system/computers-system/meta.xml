@@ -1,0 +1,31 @@
+<meta>
+	<info author="vG scripting Team" type="script" name="Computers" showInResourceBrowser="true" version="0.0.1" />
+	<script src="c_computers.lua" type="client"/>
+	<script src="s_computers.lua" type="server"/>
+	<script src="s_internetcafe.lua" type="server"/>
+	<script src="c_internetcafe.lua" type="client"/>
+	
+	<file src="desktop.png" />
+	<file src="internet_icon.png" />
+	<file src="email_icon.png" />
+	<file src="shutdown_icon.png" />
+	
+	<!-- Images -->
+	<file src="websites/images/bank_ad1.png" />
+	<file src="websites/images/bank_ad2.png" />
+	<file src="websites/images/ccbosa-logo.png" />
+	<file src="websites/images/dinosaur.png" />
+	<file src="websites/images/lspd-logo.png" />
+	
+	<!-- Colours -->
+	<file src="websites/colours/0.png" />
+	<file src="websites/colours/1.png" />
+	<file src="websites/colours/14.png" />
+	<file src="websites/colours/116.png" />
+	
+	<!-- Websites -->
+	<script src="websites/bankofsa.lua" type="client"/>
+	<script src="websites/error.lua" type="client"/>
+	<script src="websites/mdc.lua" type="client"/>
+	<script src="websites/snake.lua" type="client"/>
+</meta>

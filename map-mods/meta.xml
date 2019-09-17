@@ -1,0 +1,59 @@
+<meta>
+	<script src="mapMods.lua" type="client" />
+
+	<!--Insert Object Mod Files Here-->
+	<!--Example:
+	<file src="object.dff" />
+	<file src="object.txd" />
+	<file src="collision.col" />
+	-->
+
+	<!--Diego's Custom Objects-->
+   	<file src="objects/wall006.col" />
+	<file src="objects/wall006.dff" />
+	<file src="objects/All_walls.txd" />
+   	<file src="objects/wall018.col" />
+	<file src="objects/wall018.dff" />
+   	<file src="objects/wall019.col" />
+	<file src="objects/wall019.dff" />
+   	<file src="objects/wall036.col" />
+	<file src="objects/wall036.dff" />
+   	<file src="objects/wall052.col" />
+	<file src="objects/wall052.dff" />
+   	<file src="objects/wall090.col" />
+	<file src="objects/wall090.dff" />
+   	<file src="objects/wall102.col" />
+	<file src="objects/wall102.dff" />
+	<file src="objects/wall071.dff" />
+	<file src="objects/wall071.col" />
+	<file src="objects/mall_law.txd" />
+	<file src="objects/mallb_laW02.dff" />
+	<file src="objects/mallb_laW02.col" />
+	<file src="objects/lsmall_shop01.col" />
+	<file src="objects/lsmall_window01.col" />
+	<file src="objects/lsmall_window01.dff" />
+	<file src="objects/lsmall_shop01.dff" />
+	<file src="objects/lsmall_shops.txd" />
+	<file src="objects/wall041.dff" />
+   	<file src="objects/wall041.col" />
+	<file src="objects/wall012.dff" />
+   	<file src="objects/wall012.col" />
+	<file src="objects/wall058.col" />
+	<file src="objects/wall058.dff" />
+	<file src="objects/wall077.col" />
+	<file src="objects/wall077.dff" />
+	<file src="objects/wall096.col" />
+	<file src="objects/wall096.dff" />
+	<file src="objects/hospital_law.dff" />
+	<file src="objects/hospitalos.col" />
+	<file src="objects/streetbugfix.col" />
+	<file src="objects/fs.col" />
+	<file src="objects/SAMPLCDTVs1.txd" />	
+	<file src="objects/LCDTV1.dff" />	
+	<file src="objects/ALLSAMPCOLs.col" />
+	<file src="objects/Flatgrass.dff" />	
+	<file src="objects/Flatgrass.txd" />
+	<file src="objects/k_cargo4.dff" />	
+	<file src="objects/k_cargo4.txd" />	
+	<file src="objects/k_cargo4.col" />		
+</meta>

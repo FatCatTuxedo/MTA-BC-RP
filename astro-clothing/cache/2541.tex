@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="LionGaming Community - Multi Theft Auto: Roleplay - As a Free to Play game, you will be able to experience core content without paying a single cent!" />
+        <meta name="keywords" content="gtasa,sanandreas,grandtheftauto,community,mtarp,rp,roleplay,gta,mta,multitheftauto,vbulletin,forum,bbs,discussion,bulletin board, account,creation," />
+        <meta name="author" content="Maxime" />
+
+        <title>LionGaming Community - Your World. Your Imagination</title>
+
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+        <link href="css/nivo-slider.css" type="text/css" rel="stylesheet" />
+        <link href="css/pascal.css" type="text/css" rel="stylesheet" />
+        <link rel="shortcut icon" href="/images/icons/favicon.png" type="image/x-icon" />
+        <script type="text/javascript" src="js/ajax_login_box.js"></script>
+        <!--<script type="text/javascript" src="js/bootbox.min.js"></script>-->
+        <script type="text/javascript" src="js/ajax_server_statistics.js"></script>
+	 <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+    </head>
+
+    <body>
+        <noscript>
+            <div style="color: #D8000C;
+                 background-color: #FFBABA;text-align: center;">
+                We're sorry but our site <strong>requires</strong> JavaScript to run properly, please enable it.
+            </div>    
+        </noscript>
+        <div id="header">
+            <div class="head_wrap">
+                <!--<div class="logo"><a href="http://www.zasprexstudios.com" title="Server N"><img src="images/logo.png" border="0" alt="" /></a></div>-->
+                <div class="nav_holder">
+                    <ul>
+                        <div id="main_menu_header"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        load_slider();
+        setTimeout(function () {
+            ajax_load_server_statistics();
+        }, 50);
+        //checkSession();
+        ajax_render_main_menu();
+// Create two variable with the names of the months and days in an array
+        var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        var dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+        function setDates() {
+            // Create a newDate() object
+            var newDate = new Date();
+// Extract the current date from Date object
+            newDate.setDate(newDate.getDate());
+            newDate = convertDateToUTC(newDate);
+// Output the day, date, month and year    
+            $('.clock-Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+        }
+        setDates();
+        setInterval(setDates, 10000);
+
+        setInterval(function () {
+            // Create a newDate() object and extract the seconds of the current time on the visitor's
+            var seconds = new Date().getUTCSeconds();
+            // Add a leading zero to seconds value
+            $(".clock-sec").html((seconds < 10 ? "0" : "") + seconds);
+        }, 1000);
+
+        setInterval(function () {
+            // Create a newDate() object and extract the minutes of the current time on the visitor's
+            var minutes = new Date().getUTCMinutes();
+            // Add a leading zero to the minutes value
+            $(".clock-min").html((minutes < 10 ? "0" : "") + minutes);
+        }, 1000);
+
+        setInterval(function () {
+            // Create a newDate() object and extract the hours of the current time on the visitor's
+            var hours = new Date().getUTCHours();
+            // Add a leading zero to the hours value
+            $(".clock-hours").html((hours < 10 ? "0" : "") + hours);
+        }, 1000);
+
+        function convertDateToUTC(date) {
+            return new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
+        }
+    });
+</script><div id="main-wrapper">
+<div class="slide">
+    <div class="slideholder">
+        <div class="slider-wrapper theme-pascal">
+            <div id="slider" class="nivoSlider"> 
+                <img src="images/slides/1.gif" alt="" title="1" />
+                <img src="images/slides/2.gif" alt="" title="2" />
+                <img src="images/slides/3.gif" alt="" title="3" />
+                <img src="images/slides/4.gif" alt="" title="4" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //load_slider();
+</script></div>
+<div class="content_wrap">
+	<div class="text_holder">
+        <div class="features_box">
+            
+        </div>	
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<div class="news_holder">
+    <div class="news_top"></div>
+    <div class="news">
+    <div id="news_aboutus" class="news_container">
+    <img src="images/news_bulletin.png" alt="" />
+		<p>LionGaming is a roleplaying game community based on a Grand Theft Auto modification named Multi Theft Auto. </p>
+        <p>LionGaming is a long-term roleplaying project introduced on July 1st, 2015, with the ambition of housing well-experienced roleplayers and put them under our wing; we intend on bringing roleplayers the best of experiences in their roleplaying career for as long as possible!</p>
+        <!--<center><iframe height="200" width="355" src="https://www.youtube.com/embed/videoseries?list=PLEUfyQ8lqKZok90h2fTAg64ZpDjQiPPqS&amp;autoplay=0&amp;version=3&amp;loop=1&amp;rel=0&amp;showsearch=0&amp;cc_load_policy=1&amp;showinfo=0&amp;controls=0" frameborder="0"></iframe></center><br>-->
+        <p>We possess over a well-developed and matured script which not only serves as a major attraction to our server, but to increase the joy our roleplayers gain from staying at Lion.</p>
+        <p>Our development team consists of professional programmers and the most experienced scripters in MTA RP servers in recent years. With a strong and stable development team, our MTA server script is continuously improving and growing with weekly script releases.</p>
+        <p>LionGaming wishes you an enjoyable and refreshing stay, welcome to our server.</p>
+ </div>
+<div id="news_commits" class="news_container">
+        <img src="images/news_commits.png" alt="" />
+        <br><br>۰•● Lion Server Script Update (v2.9.5) | October 30, 2015 ●•۰
+		<br>●Changed Domain for www.liongaming.net
+		<br>●Updated UCP.
+		<br>●Fixed FBI Rancher Horn/Siren.
+		<br>●Changed Delivry Job Location.
+		<br>●Fixed Money logs.
+
+		<br><br>۰•● Lion Server Script Update (v2.9) | October 20, 2015 ●•۰
+		<br>●Players can now see how much are they carry in inventory.
+		<br>●UCP PaySafeCard/Mobile Payments.
+		<br>●Added UCP PaySafeCard/Mobile Payments.
+		<br>●Fixed Interior bug.
+		<br>●Donations will now get much more coins.
+		<br>●Updated payday donation perks to +400 and +1000 dollar per pay day.
+		<br>●Now Before login the name is(Lion.Gamer.xxxx).
+		<br>●Vehicle Plate Registration Modified.
+
+		<br><br>۰•● Lion Server Script Update (v2.8) | October 09, 2015 ●•۰
+		<br>●Players can now turn off the engine and still listening radio.
+		<br>●Fixed Death Logs.\n●Updated Generic Items now with hided ID.
+		<br>●Added Blur when press F10.
+
+		<br><br>۰•● Lion Server Script Update (v2.7) | October 06, 2015 ●•۰
+		<br>●Added Life % in players HUD.
+		<br>●Added option to turn ON and OFF Dynamic Lightning System on F10 Game Settings.
+		<br>●Fixed option to turn ON and OFF Custom Rims on F10 Game Settings.
+		<br>●Updated Rapid Towing Impounder, it's now more easy to impound.
+		<br>●Fixed PD badge icon.
+		<br>●Fixed Vehicle Selling to other players.
+
+		<br><br>۰•● Lion Server Script Update (v2.6) | September 30, 2015 ●•۰
+		<br>●Added Live Script Updates.
+
+		<br><br>۰•● Lion Server Script Update (v2.5) | September 26, 2015 ●•۰
+		<br>●Scoreboard (Added hours played, server version, % of players in server).
+		<br>●Vehicle Textures (Updated the file size limit).
+		<br>●LSPD Miranda Code (Cops can now use the command /mir).
+		<br>●UCP Fix.
+</div>
+<div id="news_roster" class="news_container">
+    <img src="images/news_roster.png" alt="" />
+        <table width="100%">
+            <tr>
+                <td valign="top">
+                    <b>Administration Team</b><br>
+                        <font color='#FFF' >■ SkyBad<br></font><font color='#FFF' >■ Hallk<br></font></td>
+                <td valign="top">
+                    <b>Support Team</b><br>
+                    <font color='#FFF' >■ Sasquatch<br></font><font color='#FFF' >■ lenog<br></font></td>
+                <td valign="top">
+                    <b>Vehicle Consultation Team</b><br>
+            </tr>
+        </table>
+</div>
+<script>
+    function hide_all_news(time) {
+        $('#news_aboutus').slideUp(time);
+        $('#news_commits').slideUp(time);
+        $('#news_roster').slideUp(time);
+        }
+        hide_all_news(0);
+        $('#news_aboutus').slideDown(0);
+            function switchNews() {
+                hide_all_news(500);
+                if ($('#news_aboutus').is(":visible")) {
+                    $('#news_commits').slideDown(500, function () {
+                    $('#btn_switch').html('▼ Staff');
+                    });
+                } else if ($('#news_commits').is(":visible")) {
+                    $('#news_roster').slideDown(500, function () {
+                    $('#btn_switch').html('▲ About us');
+                    });
+                } else if ($('#news_roster').is(":visible")) {
+                    $('#news_aboutus').slideDown(500, function () {
+                    $('#btn_switch').html('▼ Live Release Notes');
+                    });
+                }
+            }
+</script>
+</div>
+    <div class="news_bottom"></div>
+	<a href="#" style="text-decoration: none;" onclick="switchNews(); return false;"><b><div id="btn_switch" >▼ Live Release Notes</div></b></a>
+</div>
+<div class="right_holder">
+    <div class="login_box" id="ajax_login_box">
+        <div class="righ_top"></div>
+        <div class="right_middle" id="right_middle">
+            <img class="login_img" src="images/login_img.png" alt="" />
+            <div id="login_area">
+                                    <div class="login_text">
+                        <form name="login" action="" method="post" onSubmit="ajax_login_box();
+                                return false;">
+                            <input class="textfield" name="username" type="text" placeholder="Username" id="username" maxlength="100" required/>
+                            <input class="password textfield" name="password" type="password" placeholder="Password" id="password" maxlength="100"required/>
+                            <div class="hidden-submit"><input type="submit" tabindex="-1"/></div>
+                        </form>
+                    </div>
+                    <div class="login_btn" id="ajax_login_box_btn">
+                        <a onClick="ajax_login_box();
+                                return false;" href=""><img src="images/login_btn.png" border="0" alt="" /></a>
+                    </div>
+                    <div class="copyright"><a href="register.php">Register new account</a> | <a href="lostpw.php">Recover lost password</a></div>
+            </div>
+        </div>
+
+        <div class="right_bottom"></div>
+    </div>
+    <div class="stats_box">
+        <div class="statsrigh_top"></div>
+        <div class="statsright_middle">
+            <img class="stats_img" src="images/stats.png" alt="" />
+            <div id="server_stats">
+                
+                <center>
+                    
+                    <br>
+                    <img src="/images/loading11.gif"/>
+                    <br>
+                    <div style="color: #fff;text-shadow: 0px 1px #000;font-family: Arial, Helvetica, sans-serif;font-size: 12px;">
+                        <p>Querying..</p>
+                    </div>
+                </center>
+                
+                <!--
+                <iframe src="http://www.game-state.com/iframe.php?ip=91.121.137.31&port=22003&bgcolor=FFFFFF&bordercolor=000000&fieldcolor=000000&valuecolor=242424&oddrowscolor=F0F0F0&showgraph=false&showplayers=false&graphvalues=242424&graphaxis=000000&width=275&graph_height=105&plist_height=101&font_size=7" frameborder="0" scrolling="no" style="width: 270px; height: 165px"></iframe>
+                -->
+            </div>
+
+            <!--
+            Server: Online<br />
+            Server IP: 127.0.0.1<br />
+            Port: 7777<br />
+            Players: 40/50<br />
+            Mode: Server N v1.2<br />
+            Map: San Andreas<br />
+            -->
+        </div>
+
+
+<div class="statsright_bottom"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+    <div class="footer_wrap">
+        <div class="logo_zasprex"><a href="http://mtasa.com/" target="new"><img src="images/zasprex_logo.png" alt="" /></a></div> <!-- Do not remove -->
+        <div class="your_logo"><a href="#"><img src="images/your_logo.png" alt="" /></a></div>
+        <!---->
+        <div class="quick_links">
+            <div class="linkset1">
+                <ul>
+                    <h3>Quick Links</h3>
+                    <li><a class="hover" href="ucp.php" target="_self">User Control Panel</a></li>
+                    <li><a class="hover" href="http://forums.liongaming.net/" target="_blank">Community Forums</a></li>
+                    <li><a class="hover" href="support.php" target="_self">Bugs report</a></li>
+                    <li><a class="hover" href="http://liongaming.net/" target="_blank">Facebook Fanpage</a></li>
+                    <li><a class="hover" href="http://liongaming.net/" target="_blank">Youtube Channel</a></li>
+
+                </ul>
+            </div>
+            <div class="linkset2">
+                <!--
+                <ul>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                </ul>
+                -->
+            </div>
+            <div class="linkset3">
+                <!--
+                <ul>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                    <li><a class="hover" href="index.php" target="_self">Home</a></li>
+                </ul>
+                -->
+            </div>
+            <div class="back_top">
+                <h3 class="back_top_h3">Back to top</h3>
+                <a href="#top"><img class="backtop_img" src="images/arrow.jpg" alt="" border="0" /></a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<center><font size="1">
+    Programmed by <a href="#">Maxime/SkyBad/xHallk</a> <br>
+    Copyright © 2015 LionGaming Community. All rights reserved.
+    </font></center>
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>-->
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/static.js"></script>
+<script type="text/javascript">
+
+    loadLoginCookies();
+
+    load_slider();
+    setTimeout(function() {
+        ajax_load_server_statistics();
+    }, 50);
+    checkSession();
+    ajax_render_main_menu();
+</script>
+</body>
+</html>

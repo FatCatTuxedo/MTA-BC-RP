@@ -1,0 +1,21 @@
+<!--
+	Resource name: San Andreas Speaker
+
+	Resource Information
+	------------------------------------
+	This resource allows staff to create
+	music speakers.
+	------------------------------------
+	YOU DO NOT HAVE THE RIGHT TO USE THIS
+	WITHOUT PERMISSION! IF YOU HAVE BEEN
+	GIVEN PERMISSION THEN YOU ARE FREE TO
+	MAKE ANY EDITS.
+	------------------------------------
+	© 2015 - MagicMayhem
+!-->
+
+<meta>
+	<info author="MagicMayhem" name="San Andrea Speaker" start="false"/>
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

@@ -1,0 +1,33 @@
+
+GUIEditor = {
+    tab = {},
+    tabpanel = {},
+    button = {},
+    window = {},
+    gridlist = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        if GUIEditor.window[1] and isElement(GUIEditor.window[1]) then
+
+        else
+            showCursor(true)
+            GUIEditor.window[1] = guiCreateWindow(538, 144, 645, 441, "OwlGaming Staff Manager v1.0", false)
+            guiWindowSetSizable(GUIEditor.window[1], false)
+            exports.global:centerWindow(GUIEditor.window[1])
+            GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 29, 626, 366, false, GUIEditor.window[1])
+            
+            GUIEditor.tab.home = guiCreateTab("Make new staff", GUIEditor.tabpanel[1])
+            
+            GUIEditor.tab.admin = guiCreateTab("Admin Team", GUIEditor.tabpanel[1])
+            GUIEditor.gridlist.admin = guiCreateGridList(0, 0, 1, 1, true, GUIEditor.tab.admin)
+
+            GUIEditor.button[1] = guiCreateButton(10, 405, 625, 26, "Close", false, GUIEditor.window[1])
+            addEventHandler("onClientGUIClick", GUIEditor.button[1], function()
+                if source == GUIEditor.button[1] then
+                    closeStaffManager()
+                end
+            end)    
+        end
+    end
+)

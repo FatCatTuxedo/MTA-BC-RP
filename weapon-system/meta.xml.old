@@ -1,0 +1,36 @@
+<meta>	
+<script src="C_Sounds.lua" type="client"/>
+<script src="S_stats.lua" type="server"/>
+<script src="S_attach.lua" type="server"/>
+<script src="C_attach.lua" type="client"/>
+<script src="C_attach_gui.lua" type="client"/>
+
+	
+<!--<script src="S_KDR.sfx" type="server"/>-->
+		   
+<file src="sounds/weap/AK-47.mp3" />
+	   
+<file src="sounds/weap/Colt45.mp3" />
+	   
+<file src="sounds/weap/Deagle.mp3" />
+	   
+<file src="sounds/weap/Silenced.mp3" />
+	   
+<file src="sounds/weap/Shotgun.mp3" />
+	   
+<file src="sounds/weap/Sawed-Off.mp3" />
+	   
+<file src="sounds/weap/Combat Shotgun.mp3" />
+	   
+<file src="sounds/weap/UZI.mp3" />
+	   
+<file src="sounds/weap/tec9.mp3" />
+	   
+<file src="sounds/weap/MP5.mp3" />
+	   
+<file src="sounds/weap/M4.mp3" />
+	   
+<file src="sounds/weap/Rifle.mp3" />
+	   
+<file src="sounds/weap/Sniper.mp3" />
+</meta>

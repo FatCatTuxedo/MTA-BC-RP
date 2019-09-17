@@ -1,0 +1,39 @@
+<meta>
+	<info author="George - Bone County Roleplay"/>
+	<script src='server.lua' type='server'/>
+	<script src='client.lua' type='client'/>
+	
+	<script src="motd_s.lua" type='server'/>
+	<script src="motd_c.lua" type='client'/>
+
+	<script src="motd_frontend_s.lua" type='server'/>
+	<script src="motd_frontend_c.lua" type='client'/>
+
+	<script src="motd_g.lua" type='server'/>
+	<script src="motd_g.lua" type='client'/>
+
+	<script src="opm_s.lua" type='server'/>
+	<script src="opm_c.lua" type='client'/>
+
+	<file src="OwlAnnLogo.png" />
+	<file src="1.mp3" />
+	
+	<export function="sendTopNotification" type="server"/> <!--sendTopNotification(sendTo, msg, r, b, g, playsound)-->
+	<export function="sendTopNotification" type="client"/> <!--sendTopNotification( msg, r, b, g, playsound)-->
+
+	<export function="canPlayerAccessMotdManager" type="server"/>
+	<export function="canPlayerAccessMotdManager" type="client"/> 
+
+	<script src="notification_s.lua" type="server"/>
+	<script src="notification_c.lua" type="client"/>
+
+	<export function="makePlayerNotification" type="server" http="true"/> <!-- makePlayerNotification(player, title, details) -->
+	
+	<file src="read.png" />
+	<file src="unread.png" />
+	<file src="right_arrow.png" />
+	<file src="green_arrow.png" />
+	<file src="opm.png" />
+	
+	<script src="message.lua" type="client"/>
+</meta>	

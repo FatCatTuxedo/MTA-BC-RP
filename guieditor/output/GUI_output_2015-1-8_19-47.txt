@@ -1,0 +1,53 @@
+
+GUIEditor = {
+    edit = {},
+    button = {},
+    window = {},
+    label = {},
+    memo = {},
+    combobox = {},
+    checkbox = {},
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+            GUIEditor.window[2] = guiCreateWindow(548, 261, 800, 354, "Create new MOTD", false)
+    guiWindowSetSizable(GUIEditor.window[2], false)
+    exports.global:centerWindow(GUIEditor.window[2])
+    GUIEditor.label[1] = guiCreateLabel(17, 34, 81, 29, "Title:", false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.label[1], "default-bold-small")
+    guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+    GUIEditor.edit[1] = guiCreateEdit(98, 34, 438, 29, "", false, GUIEditor.window[2])
+    guiEditSetMaxLength(GUIEditor.edit[1], 50)
+    GUIEditor.label[2] = guiCreateLabel(17, 63, 81, 29, "Content:", false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.label[2], "default-bold-small")
+    guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+    GUIEditor.memo[1] = guiCreateMemo(16, 97, 520, 272, "", false, GUIEditor.window[2])
+    GUIEditor.button[3] = guiCreateButton(16, 399, 259, 31, "Save", false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.button[3], "default-bold-small")
+    GUIEditor.button[4] = guiCreateButton(277, 399, 259, 31, "Close", false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.button[4], "default-bold-small")
+    GUIEditor.label[3] = guiCreateLabel(98, 69, 420, 19, "", false, GUIEditor.window[2])
+    guiLabelSetHorizontalAlign(GUIEditor.label[3], "center", false)
+    guiLabelSetVerticalAlign(GUIEditor.label[3], "center")  
+    GUIEditor.label[4] = guiCreateLabel(22, 369, 61, 25, "Expire in:", false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.label[4], "default-bold-small")
+    guiLabelSetVerticalAlign(GUIEditor.label[4], "center")
+    
+    GUIEditor.combobox[1] = guiCreateComboBox(83, 372, 192, 22, "Never", false, GUIEditor.window[2])
+    guiComboBoxAddItem(GUIEditor.combobox[1], "Never")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "1 day")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "2 days")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "3 days")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "1 week")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "2 weeks")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "1 month")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "2 months")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "6 months")
+    guiComboBoxAddItem(GUIEditor.combobox[1], "1 year")
+    exports.global:guiComboBoxAdjustHeight(GUIEditor.combobox[1], 9)
+
+    GUIEditor.checkbox[1] = guiCreateCheckBox(367, 376, 91, 13, "Dismissable", true, false, GUIEditor.window[2])
+    guiSetFont(GUIEditor.checkbox[1], "default-bold-small")    
+    guiCheckBoxSetSelected(GUIEditor.checkbox[1], true)
+    end
+)

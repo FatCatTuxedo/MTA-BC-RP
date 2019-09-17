@@ -1,0 +1,23 @@
+<meta>
+	<script src="mdc.lua" />
+	<script src="mdc_c.lua" type="client" />
+	
+	<script src="gui/main.lua" type="client" />
+	<script src="gui/search.lua" type="client" />
+	<script src="gui/display_person.lua" type="client" />
+	<script src="gui/display_vehicle.lua" type="client" />
+	<script src="gui/display_property.lua" type="client" />
+	<script src="gui/system_admin.lua" type="client" />
+	<script src="gui/account_settings.lua" type="client" />
+	<script src="gui/add_apb.lua" type="client" />
+	<script src="gui/tolls.lua" type="client" />
+	
+	<file src="img/red.png"/>
+	<file src="img/green.png"/>
+	<file src="img/add.png"/>
+	<file src="img/settings.png"/>
+	<file src="img/search.png"/>
+	<file src="img/tolls.png"/>
+	<export function="showLoginWindow" type="client"/>
+	<export function="getPlayerPilotLicenses" type="server"/>
+</meta>

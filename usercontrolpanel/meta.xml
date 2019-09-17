@@ -1,0 +1,20 @@
+	<meta>
+	<info author="Maxime - OWL MTA Scripting Team" type="script" description="Site communications"/>
+	<script src="s_main.lua" type="server"/>
+	<export function='reloadUserPerks' http='true' />
+	<export function='isPlayerOnline' http='true' />
+	<export function='isServerOnline' http='true' />
+	<export function='statTransfer' http='true' />
+	<export function='newApp' http='true' />
+	<export function='deleteItem' http='true' />
+	<export function='retrieveWeaponDetails' http='true' />
+	<export function='attemptedFraud' http='true' />
+	<export function='userDonated' http='true' />
+	<export function='sendMessageToAdmins' http='true' />
+	<export function='getServerStats' http='true' />
+	<script src="s_vehicle_functions.lua" type="server"/>
+	<export function='getVehicleName' http='true' />
+
+	<script src="token_s.lua" type="server"/>
+	<export function='makeToken' type='server' http='false'/>
+</meta>

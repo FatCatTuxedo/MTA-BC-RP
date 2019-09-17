@@ -1,0 +1,5 @@
+<meta>
+    <info author="Chuevo" type="script" description="Vehicle Check"/>
+	<script src="s_vehcheck.lua" type="server"/>
+	<script src="c_vehcheck.lua" type="client"/>
+</meta>

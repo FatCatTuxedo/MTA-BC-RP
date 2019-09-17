@@ -1,0 +1,14 @@
+<meta>
+	<info author="Szybki, H5N1" name="notifications" description="simple notification box with 3 types" version="2.1.1" type="script" />
+	
+	<script src="box_s.lua" type="server" />
+	<script src="box_c.lua" type="client" />
+	
+	<file src="img/info.png" />
+	<file src="img/error.png" />
+	<file src="img/warning.png" />
+	<file src="bip.mp3" />
+	
+	<export function="showBox" />
+	<export function="showBox" type="client" />
+</meta>

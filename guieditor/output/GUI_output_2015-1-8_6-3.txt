@@ -1,0 +1,72 @@
+
+GUIEditor = {
+    tab = {},
+    label = {},
+    tabpanel = {},
+    edit = {},
+    gridlist = {},
+    window = {},
+    button = {},
+    combobox = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(566, 280, 645, 441, "OwlGaming Staff Manager v1.0", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.tabpanel[1] = guiCreateTabPanel(9, 29, 626, 366, false, GUIEditor.window[1])
+
+        GUIEditor.tab.home = guiCreateTab("Make new staff", GUIEditor.tabpanel[1])
+
+        GUIEditor.label[1] = guiCreateLabel(10, 16, 56, 28, "Search:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[1], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[1], "center")
+        GUIEditor.edit[1] = guiCreateEdit(84, 16, 232, 28, "", false, GUIEditor.tab.home)
+        GUIEditor.label[2] = guiCreateLabel(84, 44, 232, 23, "Testing Text", false, GUIEditor.tab.home)
+        guiLabelSetHorizontalAlign(GUIEditor.label[2], "center", false)
+        guiLabelSetVerticalAlign(GUIEditor.label[2], "center")
+        GUIEditor.combobox[1] = guiCreateComboBox(84, 69, 232, 22, "", false, GUIEditor.tab.home)
+        guiComboBoxAddItem(GUIEditor.combobox[1], "Player")
+        GUIEditor.label[3] = guiCreateLabel(10, 69, 74, 22, "Admin:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[3], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[3], "center")
+        GUIEditor.label[4] = guiCreateLabel(10, 101, 74, 22, "Supporter:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[4], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[4], "center")
+        GUIEditor.combobox[2] = guiCreateComboBox(84, 101, 232, 22, "", false, GUIEditor.tab.home)
+        guiComboBoxAddItem(GUIEditor.combobox[2], "Player")
+        GUIEditor.label[5] = guiCreateLabel(10, 133, 74, 22, "VCT:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[5], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[5], "center")
+        GUIEditor.combobox[3] = guiCreateComboBox(84, 133, 232, 22, "", false, GUIEditor.tab.home)
+        guiComboBoxAddItem(GUIEditor.combobox[3], "Player")
+        GUIEditor.label[6] = guiCreateLabel(10, 165, 74, 22, "Scripter:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[6], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[6], "center")
+        GUIEditor.combobox[4] = guiCreateComboBox(84, 165, 232, 22, "", false, GUIEditor.tab.home)
+        guiComboBoxAddItem(GUIEditor.combobox[4], "Player")
+        GUIEditor.label[7] = guiCreateLabel(326, 70, 282, 21, "", false, GUIEditor.tab.home)
+        GUIEditor.label[8] = guiCreateLabel(326, 101, 282, 21, "", false, GUIEditor.tab.home)
+        GUIEditor.label[9] = guiCreateLabel(326, 134, 282, 21, "", false, GUIEditor.tab.home)
+        GUIEditor.label[10] = guiCreateLabel(326, 165, 282, 21, "", false, GUIEditor.tab.home)
+        GUIEditor.label[11] = guiCreateLabel(10, 197, 74, 22, "Change logs:", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.label[11], "default-bold-small")
+        guiLabelSetVerticalAlign(GUIEditor.label[11], "center")
+        GUIEditor.gridlist[1] = guiCreateGridList(10, 226, 606, 106, false, GUIEditor.tab.home)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Date", 0.1)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Type", 0.1)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "From", 0.1)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "To", 0.1)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "By", 0.1)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Details", 0.1)
+        GUIEditor.button[1] = guiCreateButton(411, 16, 122, 28, "Submit", false, GUIEditor.tab.home)
+        guiSetFont(GUIEditor.button[1], "default-bold-small")
+
+        GUIEditor.tab.admin = guiCreateTab("Admin Team", GUIEditor.tabpanel[1])
+
+        GUIEditor.gridlist.admin = guiCreateGridList(0.00, 0.00, 1.00, 1.00, true, GUIEditor.tab.admin)
+
+
+        GUIEditor.button[2] = guiCreateButton(10, 405, 625, 26, "Close", false, GUIEditor.window[1])    
+    end
+)

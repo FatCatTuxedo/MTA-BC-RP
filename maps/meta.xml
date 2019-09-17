@@ -1,0 +1,33 @@
+<meta>
+    <script src="c_createObject.lua" type="client"/>
+    <script src="s_cleanup.lua" type="server" />
+	 <script src="fixbugs.lua" type="server" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+	<map src="cinema.map" dimension="86"/>
+	<map src="cinext.map" dimension ="0" />
+
+	<map src="BCSD-2016.map" dimension="0"/>
+	<map src="Blocked-off-Bridges.map" dimension="0"/>
+
+	<map src="PDinterior.map" dimension="625"/>
+	<map src="BCES-hospital.map" dimension="583"/>
+
+	<map src="BC-County-Jail.map" dimension="655"/>
+	<map src="jail2.map" dimension="655"/>
+	<map src="hotelint.map" dimension="655"/>
+	<map src="hotelint2.map" dimension="17"/>
+	<map src="impound.map" dimension="17"/>
+	<map src="RPenthouse.map" dimension="17"/>
+	<map src="CarsonUpgrade.map" dimension="0"/>
+	<map src="Garage-Base.map" dimension="0"/>
+	<map src="farmhouse.map" dimension="0"/>
+	<map src="ghetto.map" dimension="0"/>
+	<map src="CinFix.map" dimension="0"/>
+	<map src="BCFD2016.map" dimension="0"/>
+	<map src="ghetto.map" dimension="0"/>
+	<map src="burninterior.map" dimension="0"/>
+	<map src="BCRPAirport.map" dimension="0"/>
+	<map src="court.map" dimension="152"/>
+<min_mta_version client="1.3.0-9.03783"></min_mta_version>
+</meta>

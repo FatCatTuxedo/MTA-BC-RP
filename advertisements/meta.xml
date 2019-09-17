@@ -1,0 +1,6 @@
+<meta>
+	<info author="CourtezBoi" type="script" description="A classifieds-like advertisement system" />
+	
+	<script src="advertisements.lua" />
+	<script src="advertisements_c.lua" type="client" />
+</meta>

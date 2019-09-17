@@ -1,0 +1,6 @@
+<meta>
+	<script src="c_oci_office.lua" type="client"/>
+	
+	<file src="office.col"/>
+	<file src="office2.col"/>
+</meta>

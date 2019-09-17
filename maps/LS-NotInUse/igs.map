@@ -1,0 +1,11 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (washgaspump) (1)" radius="3.8871777057648" interior="0" model="1676" lodModel="0" posX="1941.13831" posY="-1774.66309" posZ="13.6045" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (washgaspump) (2)" radius="3.8871777057648" interior="0" model="1676" lodModel="0" posX="1941.19495" posY="-1768.10681" posZ="13.5695" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vegspetrolpump) (1)" interior="0" alpha="255" doublesided="false" model="3465" scale="1" dimension="0" posX="1941.78967" posY="-1778.53809" posZ="13.9811" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (3)" interior="0" alpha="255" doublesided="false" model="3465" scale="1" dimension="0" posX="1941.78906" posY="-1775.53809" posZ="13.9811" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (4)" interior="0" alpha="255" doublesided="false" model="3465" scale="1" dimension="0" posX="1941.78906" posY="-1770.53809" posZ="13.9811" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vegspetrolpump) (5)" interior="0" alpha="255" doublesided="false" model="3465" scale="1" dimension="0" posX="1941.78906" posY="-1767.33813" posZ="13.9811" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (phonebooth1) (1)" interior="0" alpha="255" doublesided="true" model="1216" scale="1" dimension="0" posX="1928.50671" posY="-1780.00708" posZ="13.15607" rotX="0" rotY="0" rotZ="89.25"></object>
+    <object id="object (phonebooth1) (2)" interior="0" alpha="255" doublesided="true" model="1216" scale="1" dimension="0" posX="1928.51953" posY="-1781.20898" posZ="13.15607" rotX="0" rotY="0" rotZ="90.747"></object>
+    <object id="object (phonebooth1) (3)" interior="0" alpha="255" doublesided="true" model="1216" scale="1" dimension="0" posX="1928.52515" posY="-1782.51196" posZ="13.15607" rotX="0" rotY="0" rotZ="90.747"></object>
+</map>

@@ -1,0 +1,10 @@
+<meta>
+	<info author="MightyGinge" version="1.0.0" type="script" description="Newspaper Script for BCRP" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" />
+
+	<map src="stands.map" dimension="0"/>
+
+	<file src="BlankPaper.png" />
+	<file src="text.txt" />
+</meta>

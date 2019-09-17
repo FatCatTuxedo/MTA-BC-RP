@@ -1,0 +1,40 @@
+<meta>
+    <script src="c_createObject.lua" type="client"/>
+    <script src="s_cleanup.lua" type="server" />
+	 <script src="fixbugs.lua" type="server" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+    
+	<map src="BCSD-2016.map" dimension="0"/>
+	<map src="BCPD.map" dimension="0"/>
+	<map src="BCFD2016.map" dimension="0"/>
+	<map src="BCRPAirport.map" dimension="0"/>
+	<map src="BCRP.map" dimension="0"/>
+	<map src="BC-DMV.map" dimension="146"/>
+	<map src="BCRP-BCSOInt.map" dimension="625"/>
+	<map src="BCRP-BCESInt.map" dimension="583"/>
+	<map src="BCRP-WARWICKInt.map" dimension="9"/>
+	<map src="WARWICKInt1.map" dimension="17"/>
+	<map src="BCRP-RSHaul.map" dimension="0"/>
+	<map src="BCRP-Dealership.map" dimension="0"/>
+	<map src="BCRP-BlockedBridges.map" dimension="0"/>
+	<map src="BC-County-Jail.map" dimension="655"/>
+	<map src="cinema.map" dimension="86"/>
+	<map src="towing.map" dimension="0"/>
+	<map src="ghetto.map" dimension="0"/>
+	<map src="burninterior.map" dimension="667"/>
+	<map src="testmap.map" dimension="152"/>
+	<map src="bcaa-gate.map" dimension="278"/>
+	<map src="BCRanch.map" dimension="278"/>
+	<map src="ritterpent.map" dimension="92"/>
+	<map src="dojint.map" dimension="20"/>
+	<map src="SAMP-APARTMENT.map" dimension="454"/>
+	<map src="SAMP-DojoBasement.map" dimension="497"/>
+	<map src="Sexshop.map" dimension="289"/>
+	<map src="GrifeCabin.map" dimension="0"/>
+	<map src="CHINA.map" dimension="0"/>
+	<map src="car-crusher.map" dimension="0"/>
+	<map src="Airport-entrance.map" dimension="183"/>
+
+<min_mta_version client="1.3.0-9.03783"></min_mta_version>
+</meta>

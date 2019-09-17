@@ -1,0 +1,7 @@
+<meta>
+	<info author="Kaspo" type="script" description="world"/>
+	<script src="island.lua" type="server" />
+	<script src="water.lua" type="client" />
+	<script src="shadows.lua" type="client" />
+
+</meta>

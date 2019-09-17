@@ -1,0 +1,14 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (des_treeline1) (1)" radius="65.82399" interior="0" model="16060" lodModel="0" posX="-192.04687" posY="1147.3906" posZ="17.69531" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (des_treeline2) (1)" radius="38.537357" interior="0" model="16061" lodModel="0" posX="-193.375" posY="1055.2891" posZ="18.32031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (fenceshit2) (1)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.25999" posY="1179.46" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (2)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.28" posY="1166.65" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (3)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.27" posY="1153.91" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (4)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.25999" posY="1141.12" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (5)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.25" posY="1128.33" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (6)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.23" posY="1117.17" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (7)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.05" posY="1079.4301" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (8)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.03999" posY="1066.6899" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (9)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.03" posY="1053.9" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (fenceshit2) (10)" breakable="true" interior="0" alpha="255" model="984" doublesided="false" scale="1" dimension="0" posX="-193.02" posY="1041.13" posZ="19.43" rotX="0" rotY="0" rotZ="0"></object>
+</map>

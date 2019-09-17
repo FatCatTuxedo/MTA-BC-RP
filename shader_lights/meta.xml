@@ -1,0 +1,13 @@
+<meta>
+	<info author="Yakuza" version="1.0.0" type="script" name="Generic Render" description=" " />
+	
+	<file src="shader/texreplace.fx"/>
+	<script src="shader_lights.lua" type="client"/>
+	<script src="shader_plates.lua" type="client"/>>
+	<file src="generic/vehiclelights128.png"/>
+	<file src="generic/vehiclelightson128.png"/>
+	<file src="generic/plateback3.png"/>	
+
+
+
+</meta>

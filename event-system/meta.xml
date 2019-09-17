@@ -1,0 +1,19 @@
+<meta>
+    <info type="script" version="0.1.0" />
+	
+	<!-- Dynamic Lighting system -->
+    <script src="s_lights.lua" type="server" />
+	
+	<!-- BMX / Skate Park System -->
+    <!--<script src="s_bmx.lua" type="server" />
+    <script src="c_bmx.lua" type="client" />
+	<file src="bmxrules.xml" />-->
+	
+	<!-- Basketball -->
+	<script src="c_basketball.lua" type="client" />
+    <script src="s_basketball.lua" type="server" />
+    
+	<file src="bball-sounds/drible.ogg" />
+    <file src="bball-sounds/board.ogg" />
+    <file src="bball-sounds/boardhit.ogg" />
+</meta>

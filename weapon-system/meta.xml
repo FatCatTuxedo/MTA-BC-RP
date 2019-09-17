@@ -1,0 +1,44 @@
+<meta>
+    <script src="C_Sounds.lua" type="client" />
+    <script src="S_stats.lua" type="server" />
+    <script src="S_attach.lua" type="server" />
+    <script src="C_attach.lua" type="client" />
+    <script src="C_attach_gui.lua" type="client" />
+    <script src="c_fd_extinguisher.lua" type="client" />
+    <script src="s_fd_extinguisher.lua" type="server" />
+
+
+    <!--<script src="S_KDR.sfx" type="server"/>-->
+
+    <file src="sounds/weap/AK-47.mp3" />
+
+    <file src="sounds/weap/Colt45.mp3" />
+
+    <file src="sounds/weap/Deagle.mp3" />
+
+<!--    <file src="sounds/weap/Silenced.mp3" />-->
+    <file src="sounds/weap/Silenced.wav" />
+
+    <file src="sounds/weap/Shotgun.mp3" />
+
+    <file src="sounds/weap/Sawed-Off.mp3" />
+
+    <file src="sounds/weap/Combat Shotgun.mp3" />
+
+    <file src="sounds/weap/UZI.mp3" />
+
+    <file src="sounds/weap/tec9.mp3" />
+
+    <file src="sounds/weap/MP5.mp3" />
+
+    <file src="sounds/weap/M4.wav" />
+<!--    <file src="sounds/weap/M4.mp3" />-->
+
+    <file src="sounds/weap/Rifle.mp3" />
+
+    <file src="sounds/weap/Sniper.mp3" />
+	<file src="sounds/weap/Tazer.wav" />
+	<file src="sounds/weap/beanbag.mp3" />
+
+    <min_mta_version client="1.3.0-9.04134"></min_mta_version>
+</meta>

@@ -1,0 +1,11 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    memo = {}
+}
+GUIEditor.window[1] = guiCreateWindow(631, 387, 474, 215, "", false)
+guiWindowSetSizable(GUIEditor.window[1], false)
+
+GUIEditor.memo[1] = guiCreateMemo(9, 23, 455, 152, "", false, GUIEditor.window[1])
+GUIEditor.button[1] = guiCreateButton(12, 181, 452, 24, "Close", false, GUIEditor.window[1])

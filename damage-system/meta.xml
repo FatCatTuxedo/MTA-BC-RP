@@ -1,0 +1,4 @@
+<meta>
+	<script src="headshot_s.lua" type="server" />
+	<script src="headshot_c.lua" type="client" />
+</meta>

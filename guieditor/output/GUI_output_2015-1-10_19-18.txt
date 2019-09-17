@@ -1,0 +1,15 @@
+
+GUIEditor = {
+    button = {},
+    window = {},
+    label = {}
+}
+GUIEditor.window[1] = guiCreateWindow(607, 304, 449, 268, "Offline Private Message", false)
+guiWindowSetSizable(GUIEditor.window[1], false)
+
+GUIEditor.button[1] = guiCreateButton(19, 102, 412, 85, "", false, GUIEditor.window[1])
+GUIEditor.label[1] = guiCreateLabel(17, 31, 414, 67, "Offline Private Message is a premium feature that allows you to send a private massage to any player no matter if they're online or offline.\n\nTarget player will receive your PM as a notification demonstrated below:", false, GUIEditor.window[1])
+guiLabelSetHorizontalAlign(GUIEditor.label[1], "left", true)
+GUIEditor.label[2] = guiCreateLabel(17, 197, 414, 26, "It costs 1 GC to activate this feature in F10 -> Premium Features.", false, GUIEditor.window[1])
+guiLabelSetHorizontalAlign(GUIEditor.label[2], "left", true)
+GUIEditor.button[2] = guiCreateButton(160, 223, 132, 32, "OK", false, GUIEditor.window[1])

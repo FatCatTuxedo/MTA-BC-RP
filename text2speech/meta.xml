@@ -1,0 +1,7 @@
+<meta>
+	<info author='Maxime - OwlGaming Community'/>
+	<script src="text2speech_g.lua" type="shared" />
+    <script src="text2speech_c.lua" type="client" />
+    <export function="convertTextToSpeech" type="server" />
+    <export function="convertTextToSpeech" type="client" />
+</meta>	

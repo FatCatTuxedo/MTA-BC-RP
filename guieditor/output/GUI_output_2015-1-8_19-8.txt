@@ -1,0 +1,22 @@
+
+GUIEditor = {
+    gridlist = {},
+    window = {},
+    button = {}
+}
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        GUIEditor.window[1] = guiCreateWindow(412, 210, 800, 354, "MOTD - Message of the day v1.0", false)
+        guiWindowSetSizable(GUIEditor.window[1], false)
+
+        GUIEditor.gridlist[1] = guiCreateGridList(9, 28, 781, 276, false, GUIEditor.window[1])
+        guiGridListAddColumn(GUIEditor.gridlist[1], "ID", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Creation Date", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Expiration Date", 0.2)
+        guiGridListAddColumn(GUIEditor.gridlist[1], "Message", 0.2)
+        GUIEditor.button[1] = guiCreateButton(10, 314, 388, 30, "Create new MOTD", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.button[1], "default-bold-small")
+        GUIEditor.button[2] = guiCreateButton(402, 314, 388, 30, "Close", false, GUIEditor.window[1])
+        guiSetFont(GUIEditor.button[2], "default-bold-small")    
+    end
+)

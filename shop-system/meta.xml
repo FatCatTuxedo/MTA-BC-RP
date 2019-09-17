@@ -1,0 +1,45 @@
+<meta>
+	<info author="Maxime- OWL MTA Scripting Team" type="script" description="Shop System"/>
+	<include resource="debug" />
+	<script src="g_upgrades.lua" type="server"/>
+	<script src="g_upgrades.lua" type="client"/>
+
+	<script src="g_shopinfo.lua" type="server"/>
+	<script src="g_shopinfo.lua" type="client"/>
+	
+	<script src="s_generalshop_system.lua" type="server"/>
+	<script src="c_generalshop_system.lua" type="client"/>
+	
+	<script src="c_ped_click.lua" type="client"/>
+	
+	<script src="c_custom_shop.lua" type="client"/>
+	<script src="s_custom_shop.lua" type="server"/>
+
+	<script src="s_anti-cheat.lua" type="server"/>
+	
+	<script src="g_debug.lua" type="server"/>
+	<script src="g_debug.lua" type="client"/>
+	
+	<script src="g_faction_drop_npc.lua" type="server"/>
+	<script src="g_faction_drop_npc.lua" type="client"/>
+	
+	<script src="faction_drop_s.lua" type="server"/>
+	<script src="faction_drop_c.lua" type="client"/>
+	
+	<file src="playCollectMoneySound.mp3" /> 
+	<file src="playPayWageSound.mp3" /> 
+	<file src="playBuySound.mp3" /> 
+	<file src="seguisb.ttf" /> 
+	<settings> <!--Do not change if you're not sure what you're doing -Maxime -->
+		<setting name="*warningDebtAmount" value="[400]"/>  <!--The shop will send SMS to owners when debt reaches this amount-->
+		<setting name="*limitDebtAmount" value="[800]"/>  <!--The shop will quitjob (delete itself) when debt reaches this amount-->
+		<setting name="*wageRate" value="[5]"/> <!--Number of items the hold can hold per $1 of shop wage.-->
+		<setting name="*updateWageInterval" value="[60]"/> <!--How long will the shops update wage again? in minutes-->
+		<setting name="*profitRate" value="[4]"/> <!--This will effect supplies prices in trucker job system, /ordersupplies and business system.-->
+	</settings>
+	
+	<export function="getFittingSkins" type="client"/>
+
+	<export function="getDisabledUpgrades" type="server"/>
+	<export function="getDisabledUpgrades" type="client"/>
+</meta>

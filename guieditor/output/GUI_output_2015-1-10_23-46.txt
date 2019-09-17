@@ -1,0 +1,12 @@
+
+
+addEventHandler("onClientRender", root,
+    function()
+        dxDrawRectangle(542, 27, 414, 128, tocolor(0, 0, 0, 255), true)
+        dxDrawRectangle(543, 28, 412, 126, tocolor(0, 0, 0, 100), true)
+        dxDrawText("Admin jail sentence", 630, 38, 872, 76, tocolor(255, 255, 255, 255), 1.00, "pricedown", "center", "center", false, false, true, false, false)
+        dxDrawText("Reason: Fuck the what?", 553, 100, 945, 127, tocolor(255, 255, 255, 255), 1.00, "default", "center", "center", false, true, true, false, false)
+        dxDrawText("2 days 22 hours", 563, 59, 945, 100, tocolor(235, 146, 41, 255), 1.00, "bankgothic", "center", "center", false, false, true, false, false)
+        dxDrawText("Jailed by admin Maxime", 553, 117, 945, 144, tocolor(255, 255, 255, 255), 1.00, "default", "center", "center", false, true, true, false, false)
+    end
+)
